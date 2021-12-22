@@ -3,12 +3,13 @@
     package="br.com.jholdev.listadecompras">
 
     <application
-        android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ListaDeCompras">
+        android:theme="@style/Theme.ListaDeCompras"
+        android:allowBackup="true">
 
         <activity
             android:name=".CadastroActivity"

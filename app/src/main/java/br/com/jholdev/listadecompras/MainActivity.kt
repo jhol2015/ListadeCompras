@@ -1,11 +1,10 @@
 package br.com.jholdev.listadecompras
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Adapter
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 //Cria a classe MainActivity com "Herança" do AppCompatActivity().

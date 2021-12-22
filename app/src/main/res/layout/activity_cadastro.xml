@@ -22,28 +22,32 @@
         android:layout_height="100dp"
         android:src="@drawable/ic_menu_camera"
         android:id="@+id/img_foto_produto"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/todo" />
 
     <EditText
         android:id="@+id/txt_produto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/nome_do_produto"
-        android:inputType="textCapSentences|textAutoCorrect"/>
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:minHeight="48dp" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/txt_qtd"
-        android:inputType="number"
-        android:hint="@string/Quantidade"/>
-
-    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/Quantidade"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
         android:id="@+id/txt_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/R$_0_00"
         android:inputType="numberDecimal"
-        android:hint="@string/R$_0_00"/>
+        android:minHeight="48dp" />
 
     <Button
         android:layout_width="match_parent"
