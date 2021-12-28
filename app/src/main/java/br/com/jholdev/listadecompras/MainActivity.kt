@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             //Removendo o item clicado da lista
             produtosAdapter.remove(item)
 
-            //Retorno indicando que o click foi realiado com sucesso
+            //Retorno indicando que o click foi realizado com sucesso
             true
         }
     }
